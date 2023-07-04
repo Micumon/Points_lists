@@ -6,7 +6,6 @@ path_plot_pos_own = "C:\\Users\\admin\\Desktop\\excel\\dz pos wlas.xlsx"
 
 
 wb_obj = load_workbook(path)
-
 sheet = wb_obj.active
 
 
@@ -65,6 +64,7 @@ def plot_pos_pers(sheet):
 
 
 names_positions_plots = pers_pos_plot(sheet)
+
 names_positions_plots_exel = Workbook()
 names_positions_plots_exel_sheet = names_positions_plots_exel.active
 row_counter = 1
