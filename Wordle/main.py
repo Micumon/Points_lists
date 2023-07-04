@@ -48,6 +48,3 @@ while wrongs != 0 and rounds != 10:
         print_tup = guessing_word.check_letters(guess)
         print(print_tup[0], print_tup[1])
     rounds += 1
-
-
-
